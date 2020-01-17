@@ -1,6 +1,5 @@
 package petClinic.services;
 
-import petClinic.model.Owner;
 import petClinic.model.Vet;
 
 import java.util.Set;
