@@ -7,7 +7,7 @@ import petClinic.services.SpecialtyService;
 import java.util.Set;
 
 @Service
-public class SpecialtyMap extends AbstractMapService<Specialty, Long> implements SpecialtyService {
+public class SpecialtyMap extends AbstractServiceMap<Specialty, Long> implements SpecialtyService {
     @Override
     public Set<Specialty> findAll() {
         return super.findAll();

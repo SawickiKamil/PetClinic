@@ -13,7 +13,7 @@ import java.util.Set;
 
 @Service
 @Primary
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
+public class OwnerServiceMap extends AbstractServiceMap<Owner, Long> implements OwnerService {
 
     private final PetService petService;
     private final PetTypeService petTypeService;
