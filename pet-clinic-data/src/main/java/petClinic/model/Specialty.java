@@ -1,7 +1,15 @@
 package petClinic.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "specialties")
 public class Specialty extends BaseEntity {
 
+    @Column(name = "desctiption")
     private String description;
 
     public String getDescription() {

@@ -5,10 +5,6 @@ import javax.persistence.*;
 @MappedSuperclass
 public class Person extends BaseEntity{
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long Id;
-
     @Column(name = "first_name")
     private String firstName;
 
